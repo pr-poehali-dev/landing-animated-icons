@@ -218,7 +218,8 @@ const Index = () => {
                 <div className="text-5xl font-bold text-accent mb-2">∞</div>
                 <p className="text-muted-foreground">хранение без потери качества</p>
               </div>
-          </div>
+            </div>
+          </Card>
         </div>
       </section>
 
