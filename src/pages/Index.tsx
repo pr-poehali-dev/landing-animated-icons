@@ -20,12 +20,12 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-foreground">SS</span>
-            <span className="text-2xl font-bold">
-              <span className="text-foreground">Stani</span>
-              <span className="text-accent">Studio</span>
-            </span>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/generation-3717109-1.png" 
+              alt="StaniStudio Logo" 
+              className="h-14 w-auto object-contain"
+            />
           </div>
           <Button onClick={handleTelegramClick} className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
             Написать в Telegram
