@@ -140,83 +140,84 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-gradient-to-br from-accent/5 via-primary/10 to-accent/10">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
-            Сравнение подарков
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="p-8 text-center hover-scale cursor-pointer border-2 hover:border-destructive transition-colors">
-              <div className="text-6xl mb-4">🌹</div>
-              <h3 className="text-2xl font-bold mb-4 text-foreground">Новый год</h3>
-              <div className="space-y-3">
-                <div className="flex items-center gap-2 text-muted-foreground">
-                  <Icon name="Gift" size={20} />
-                  <span>Цветы</span>
-                </div>
-                <div className="flex items-center gap-2 text-muted-foreground">
-                  <Icon name="ArrowRight" size={20} />
-                  <span>Мусор</span>
-                </div>
-                <div className="flex items-center gap-2 text-destructive font-semibold">
-                  <Icon name="X" size={20} />
-                  <span>Никто не помнит</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-8 text-center hover-scale cursor-pointer border-2 hover:border-destructive transition-colors">
-              <div className="text-6xl mb-4">🎈</div>
-              <h3 className="text-2xl font-bold mb-4 text-foreground">День рождения</h3>
-              <div className="space-y-3">
-                <div className="flex items-center gap-2 text-muted-foreground">
-                  <Icon name="Gift" size={20} />
-                  <span>Украшение</span>
-                </div>
-                <div className="flex items-center gap-2 text-muted-foreground">
-                  <Icon name="ArrowRight" size={20} />
-                  <span>Ящик</span>
-                </div>
-                <div className="flex items-center gap-2 text-destructive font-semibold">
-                  <Icon name="X" size={20} />
-                  <span>Забыли</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-8 text-center hover-scale cursor-pointer border-4 border-accent shadow-2xl bg-accent/5">
-              <div className="text-6xl mb-4">🤖</div>
-              <h3 className="text-2xl font-bold mb-4 text-accent">Нейроподарок</h3>
-              <div className="space-y-3">
-                <div className="flex items-center gap-2 text-foreground font-semibold">
-                  <Icon name="Sparkles" size={20} />
-                  <span>Видео от звезды</span>
-                </div>
-                <div className="flex items-center gap-2 text-foreground font-semibold">
-                  <Icon name="ArrowRight" size={20} />
-                  <span>Плачет</span>
-                </div>
-                <div className="flex items-center gap-2 text-accent font-bold">
-                  <Icon name="Check" size={20} />
-                  <span>Помнит 10 лет</span>
-                </div>
-              </div>
-            </Card>
+          <div className="text-center mb-12">
+            <div className="inline-block px-6 py-2 bg-accent/20 rounded-full mb-6">
+              <span className="text-accent font-bold text-lg">🚀 Новая эра подарков</span>
+            </div>
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
+              Подарок, который переживают <span className="text-accent">в сердце</span>
+            </h2>
+            <p className="text-xl text-muted-foreground mb-4">
+              А не лежит в ящике
+            </p>
           </div>
 
-          <div className="mt-16 grid md:grid-cols-3 gap-6 text-center">
-            <Card className="p-6 bg-destructive/10 border-destructive/20">
-              <div className="text-4xl font-bold text-destructive mb-2">73%</div>
-              <p className="text-muted-foreground">подарков забивают в ящик</p>
-            </Card>
-            <Card className="p-6 bg-destructive/10 border-destructive/20">
-              <div className="text-4xl font-bold text-destructive mb-2">7 дней</div>
-              <p className="text-muted-foreground">средняя жизнь подарка</p>
-            </Card>
-            <Card className="p-6 bg-accent/10 border-accent/20">
-              <div className="text-4xl font-bold text-accent mb-2">10+ лет</div>
-              <p className="text-muted-foreground">средняя жизнь видео/фотоподарка</p>
-            </Card>
+          <Card className="p-10 md:p-16 bg-gradient-to-br from-accent/10 to-primary/10 border-2 border-accent shadow-2xl mb-12">
+            <div className="text-center mb-12">
+              <div className="text-7xl mb-6">🤖✨</div>
+              <h3 className="text-3xl md:text-4xl font-bold text-accent mb-4">Уникальный Нейроподарок</h3>
+              <p className="text-xl text-muted-foreground">
+                Неотличимое фото/видео, созданное с помощью ИИ
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0">
+                  <Icon name="Heart" size={24} className="text-accent" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-2 text-foreground">Живёт в памяти</h4>
+                  <p className="text-muted-foreground">Средняя память такого подарка — 10+ лет. Это не вещь, которую забросят в шкаф.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0">
+                  <Icon name="Sparkles" size={24} className="text-accent" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-2 text-foreground">Вызывает эмоции</h4>
+                  <p className="text-muted-foreground">Момент, когда человек видит себя рядом с кумиром — это слёзы счастья.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0">
+                  <Icon name="Infinity" size={24} className="text-accent" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-2 text-foreground">Не теряется</h4>
+                  <p className="text-muted-foreground">Цифровой формат — пересматривают годами, делятся с друзьями, хранят навсегда.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0">
+                  <Icon name="Star" size={24} className="text-accent" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-2 text-foreground">Абсолютно уникален</h4>
+                  <p className="text-muted-foreground">Каждый нейроподарок создаётся индивидуально — такого больше ни у кого не будет.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="p-6 bg-card/50 backdrop-blur rounded-xl">
+                <div className="text-5xl font-bold text-accent mb-2">10+ лет</div>
+                <p className="text-muted-foreground">средняя память нейроподарка</p>
+              </div>
+              <div className="p-6 bg-card/50 backdrop-blur rounded-xl">
+                <div className="text-5xl font-bold text-accent mb-2">100%</div>
+                <p className="text-muted-foreground">эмоциональная вовлечённость</p>
+              </div>
+              <div className="p-6 bg-card/50 backdrop-blur rounded-xl">
+                <div className="text-5xl font-bold text-accent mb-2">∞</div>
+                <p className="text-muted-foreground">хранение без потери качества</p>
+              </div>
           </div>
         </div>
       </section>
