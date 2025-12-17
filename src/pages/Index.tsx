@@ -280,7 +280,7 @@ const Index = () => {
               <h3 className="text-2xl font-bold mb-3 text-center text-foreground">Видео с кумиром</h3>
               <p className="text-3xl font-bold text-center mb-4 text-accent">1 500 ₽</p>
               <p className="text-center text-muted-foreground">
-                Любой кумир поздравляет личным сообщением
+                Любая звезда посылает Вам именное поздравление с праздником
               </p>
             </Card>
 
@@ -293,7 +293,7 @@ const Index = () => {
               <h3 className="text-2xl font-bold mb-3 text-center text-foreground">Фотосессия мечты</h3>
               <p className="text-3xl font-bold text-center mb-4 text-accent">3 000 ₽</p>
               <p className="text-center text-muted-foreground">
-                10 фото. Как ты видишь себя в снах
+                10 изящных фото образов из ваших снов и мечт для Вас или близкого
               </p>
             </Card>
 
@@ -306,7 +306,7 @@ const Index = () => {
               <h3 className="text-2xl font-bold mb-3 text-center text-foreground">Оживление фото</h3>
               <p className="text-3xl font-bold text-center mb-4 text-accent">500 ₽</p>
               <p className="text-center text-muted-foreground">
-                Старое фото оживает
+                Любое фото из далёкого прошлого навеет чувство ностальгии
               </p>
             </Card>
           </div>
