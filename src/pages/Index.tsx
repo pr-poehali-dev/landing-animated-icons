@@ -156,7 +156,7 @@ const Index = () => {
 
           <Card className="p-10 md:p-16 bg-gradient-to-br from-accent/10 to-primary/10 border-2 border-accent shadow-2xl mb-12">
             <div className="text-center mb-12">
-              <div className="text-7xl mb-6">🤖✨</div>
+              <div className="text-7xl mb-6">💝✨</div>
               <h3 className="text-3xl md:text-4xl font-bold text-accent mb-4">Уникальный Нейроподарок</h3>
               <p className="text-xl text-muted-foreground">
                 Неотличимое фото/видео, созданное с помощью ИИ
