@@ -71,18 +71,71 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-muted">
-        <div className="container mx-auto max-w-4xl animate-fade-in">
+      <section className="py-20 px-4 bg-gradient-to-br from-destructive/10 via-accent/5 to-primary/10">
+        <div className="container mx-auto max-w-6xl animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-foreground">
             ❌ ОБЫЧНЫЕ ПОДАРКИ ЗАБЫВАЮТ ЧЕРЕЗ НЕДЕЛЮ
           </h2>
           <p className="text-xl text-center text-muted-foreground mb-12">
             Цветы завянут, шоколад съедят, деньги потратят и забудут.
           </p>
+          
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <Card className="p-6 bg-card/80 backdrop-blur border-destructive/20 hover-scale">
+              <div className="flex flex-col items-center text-center">
+                <div className="text-5xl mb-3">💐</div>
+                <div className="text-3xl font-bold text-destructive mb-2">2 дня</div>
+                <p className="text-muted-foreground">жизнь букета цветов</p>
+              </div>
+            </Card>
+            
+            <Card className="p-6 bg-card/80 backdrop-blur border-destructive/20 hover-scale">
+              <div className="flex flex-col items-center text-center">
+                <div className="text-5xl mb-3">🍫</div>
+                <div className="text-3xl font-bold text-destructive mb-2">1 час</div>
+                <p className="text-muted-foreground">съедят коробку конфет</p>
+              </div>
+            </Card>
+            
+            <Card className="p-6 bg-card/80 backdrop-blur border-destructive/20 hover-scale">
+              <div className="flex flex-col items-center text-center">
+                <div className="text-5xl mb-3">💸</div>
+                <div className="text-3xl font-bold text-destructive mb-2">3 дня</div>
+                <p className="text-muted-foreground">потратят деньги</p>
+              </div>
+            </Card>
+          </div>
+
           <Card className="p-8 md:p-12 bg-card border-2 border-accent shadow-lg">
-            <blockquote className="text-2xl md:text-3xl font-semibold text-center text-foreground leading-relaxed">
+            <blockquote className="text-2xl md:text-3xl font-semibold text-center text-foreground leading-relaxed mb-8">
               "Люди помнят 10% что слышат, 25% что видят, но <span className="text-accent">65% что ЧУВСТВУЮТ</span>"
             </blockquote>
+            
+            <div className="grid md:grid-cols-3 gap-6 mt-8">
+              <div className="flex items-center gap-3 justify-center">
+                <Icon name="Ear" size={32} className="text-muted-foreground" />
+                <div>
+                  <div className="text-2xl font-bold text-muted-foreground">10%</div>
+                  <p className="text-sm text-muted-foreground">слышат</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-3 justify-center">
+                <Icon name="Eye" size={32} className="text-muted-foreground" />
+                <div>
+                  <div className="text-2xl font-bold text-muted-foreground">25%</div>
+                  <p className="text-sm text-muted-foreground">видят</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-3 justify-center">
+                <Icon name="Heart" size={32} className="text-accent" />
+                <div>
+                  <div className="text-2xl font-bold text-accent">65%</div>
+                  <p className="text-sm text-accent font-semibold">ЧУВСТВУЮТ</p>
+                </div>
+              </div>
+            </div>
           </Card>
         </div>
       </section>
