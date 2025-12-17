@@ -24,7 +24,7 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/generation-3717197-1.png" 
               alt="StaniStudio Logo" 
-              className="h-24 md:h-28 w-auto object-contain"
+              className="h-12 md:h-14 w-auto object-contain"
             />
           </div>
           <Button onClick={handleTelegramClick} className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
