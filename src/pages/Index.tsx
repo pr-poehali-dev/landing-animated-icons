@@ -54,20 +54,6 @@ const Index = () => {
               >
                 Получить подарок
               </Button>
-              <div className="mt-12 flex flex-wrap justify-center md:justify-start gap-6 text-white/90">
-                <div className="flex items-center gap-2">
-                  <Icon name="Check" size={20} className="text-accent" />
-                  <span className="font-semibold">847 видео</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Icon name="Check" size={20} className="text-accent" />
-                  <span className="font-semibold">213 клиентов</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Icon name="Check" size={20} className="text-accent" />
-                  <span className="font-semibold">4.9/5 рейтинг</span>
-                </div>
-              </div>
             </div>
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
