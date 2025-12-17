@@ -223,6 +223,48 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Примеры работ */}
+      <section className="py-20 px-4 bg-background">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
+            Примеры работ
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Именные поздравления в видео от звёзд, оживление старых семейных фотографий и фотосессии мечты
+          </p>
+          
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <Card className="overflow-hidden hover-scale">
+              <img 
+                src="https://cdn.poehali.dev/files/photo_2025-12-18 00.12.55.jpeg" 
+                alt="Пример нейроподарка - встреча с кумиром"
+                className="w-full h-80 object-cover"
+              />
+            </Card>
+            
+            <Card className="overflow-hidden hover-scale">
+              <img 
+                src="https://cdn.poehali.dev/files/photo_2025-12-18 00.09.49.jpeg" 
+                alt="Пример нейроподарка - фотосессия мечты"
+                className="w-full h-80 object-cover"
+              />
+            </Card>
+            
+            <Card className="overflow-hidden hover-scale">
+              <img 
+                src="https://cdn.poehali.dev/files/freepik__img1im-taking-a-selfie-with-on-the-set-of-the-film__42674.png" 
+                alt="Пример нейроподарка - на съёмочной площадке"
+                className="w-full h-80 object-cover"
+              />
+            </Card>
+          </div>
+          
+          <p className="text-center text-xs text-muted-foreground">
+            * Все фото сгенерированы ИИ с реальными людьми
+          </p>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-muted">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
