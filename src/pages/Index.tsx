@@ -132,12 +132,12 @@ const Index = () => {
             </Card>
 
             <Card className="p-8 text-center hover-scale cursor-pointer border-4 border-accent shadow-2xl bg-accent/5">
-              <div className="text-6xl mb-4">🎬</div>
-              <h3 className="text-2xl font-bold mb-4 text-accent">Видеоподарок</h3>
+              <div className="text-6xl mb-4">🤖</div>
+              <h3 className="text-2xl font-bold mb-4 text-accent">Нейроподарок</h3>
               <div className="space-y-3">
                 <div className="flex items-center gap-2 text-foreground font-semibold">
-                  <Icon name="Video" size={20} />
-                  <span>Видео Конора</span>
+                  <Icon name="Sparkles" size={20} />
+                  <span>Видео от звезды</span>
                 </div>
                 <div className="flex items-center gap-2 text-foreground font-semibold">
                   <Icon name="ArrowRight" size={20} />
@@ -162,7 +162,7 @@ const Index = () => {
             </Card>
             <Card className="p-6 bg-accent/10 border-accent/20">
               <div className="text-4xl font-bold text-accent mb-2">10+ лет</div>
-              <p className="text-muted-foreground">средняя жизнь видеоподарка</p>
+              <p className="text-muted-foreground">средняя жизнь видео/фотоподарка</p>
             </Card>
           </div>
         </div>
