@@ -38,32 +38,48 @@ const Index = () => {
           <div className="absolute top-10 left-10 w-72 h-72 bg-accent rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary rounded-full blur-3xl"></div>
         </div>
-        <div className="container mx-auto max-w-4xl text-center relative z-10 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
-            ПОДАРОК КОТОРЫЙ ЛЮДИ ПОМНЯТ 10 ЛЕТ
-          </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-10 font-medium">
-            Видео от кумира, фотосессия мечты, оживление фото за 24 часа
-          </p>
-          <Button 
-            onClick={handleTelegramClick}
-            size="lg" 
-            className="bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-12 py-7 font-bold shadow-2xl hover:scale-105 transition-transform"
-          >
-            Получить подарок
-          </Button>
-          <div className="mt-12 flex flex-wrap justify-center gap-8 text-white/90">
-            <div className="flex items-center gap-2">
-              <Icon name="Check" size={20} className="text-accent" />
-              <span className="font-semibold">847 видео созданы</span>
+        <div className="container mx-auto max-w-6xl relative z-10 animate-fade-in">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="text-center md:text-left">
+              <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
+                ПОДАРОК КОТОРЫЙ ЛЮДИ ПОМНЯТ 10 ЛЕТ
+              </h1>
+              <p className="text-xl md:text-2xl text-white/90 mb-10 font-medium">
+                Видео от кумира, фотосессия мечты, оживление фото за 24 часа
+              </p>
+              <Button 
+                onClick={handleTelegramClick}
+                size="lg" 
+                className="bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-12 py-7 font-bold shadow-2xl hover:scale-105 transition-transform"
+              >
+                Получить подарок
+              </Button>
+              <div className="mt-12 flex flex-wrap justify-center md:justify-start gap-6 text-white/90">
+                <div className="flex items-center gap-2">
+                  <Icon name="Check" size={20} className="text-accent" />
+                  <span className="font-semibold">847 видео</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Icon name="Check" size={20} className="text-accent" />
+                  <span className="font-semibold">213 клиентов</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Icon name="Check" size={20} className="text-accent" />
+                  <span className="font-semibold">4.9/5 рейтинг</span>
+                </div>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <Icon name="Check" size={20} className="text-accent" />
-              <span className="font-semibold">213 клиентов</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Icon name="Check" size={20} className="text-accent" />
-              <span className="font-semibold">4.9/5 рейтинг</span>
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
+                <img 
+                  src="https://cdn.poehali.dev/files/photo_2025-12-17 15.39.24.jpeg" 
+                  alt="Встреча с кумиром" 
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground font-bold text-lg px-6 py-3 rounded-xl shadow-xl">
+                Реальный результат!
+              </div>
             </div>
           </div>
         </div>
