@@ -20,11 +20,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center bg-white rounded-xl px-3 py-2 shadow-sm">
             <img 
               src="https://cdn.poehali.dev/files/photo_2025-12-17 15.34.02.jpeg" 
               alt="StaniStudio Logo" 
-              className="h-12 md:h-14 w-auto object-contain"
+              className="h-10 md:h-12 w-auto object-contain"
             />
           </div>
           <Button onClick={handleTelegramClick} className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
