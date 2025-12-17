@@ -42,7 +42,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-center md:text-left">
               <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
-                ПОДАРОК КОТОРЫЙ ЛЮДИ ПОМНЯТ 10 ЛЕТ
+                ПОДАРОК КОТОРЫЙ ПОМНЯТ 10 ЛЕТ
               </h1>
               <p className="text-xl md:text-2xl text-white/90 mb-10 font-medium">
                 Видео от кумира, фотосессия мечты, оживление фото за 24 часа
