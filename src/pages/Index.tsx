@@ -22,7 +22,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <img 
-              src="https://cdn.poehali.dev/files/generation-3717197-1.png" 
+              src="https://cdn.poehali.dev/files/photo_2025-12-17 15.34.02.jpeg" 
               alt="StaniStudio Logo" 
               className="h-12 md:h-14 w-auto object-contain"
             />
