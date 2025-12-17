@@ -22,9 +22,9 @@ const Index = () => {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img 
-              src="https://cdn.poehali.dev/files/generation-3717109-1.png" 
+              src="https://cdn.poehali.dev/files/generation-3717197-1.png" 
               alt="StaniStudio Logo" 
-              className="h-14 w-auto object-contain"
+              className="h-16 w-auto object-contain"
             />
           </div>
           <Button onClick={handleTelegramClick} className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
